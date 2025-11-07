@@ -203,7 +203,7 @@ export default function App() {
             <label key={f.name} className="block">
               <span className="text-sm text-white/80">{f.label}</span>
               <input
-                required={f.name == "name" or f.name == "email"}
+                required={f.name == "name" || f.name == "email"}
                 type={f.type}
                 placeholder={f.ph}
                 value={order[f.name]}
